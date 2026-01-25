@@ -1,11 +1,11 @@
-# CVRT Homebrew Casks
+# Homebrew Casks
 
-Homebrew Cask formulas for CVRT macOS applications.
+Homebrew Cask formulas for CAVORT macOS applications.
 
 ## Installation
 
 ```bash
-brew install cvrt-gmbh/cask/mucapture
+brew install cvrt-gmbh/cask/<cask-name>
 ```
 
 ## Available Casks
@@ -22,7 +22,7 @@ If macOS shows "Apple could not verify [app] is free of malware":
 
 **Option 1: Terminal command**
 ```bash
-sudo xattr -cr "/Applications/μCapture.app"
+sudo xattr -cr "/Applications/<AppName>.app"
 ```
 
 **Option 2: Right-click method**
@@ -34,4 +34,4 @@ This only needs to be done once per app.
 
 ---
 
-*[CVRT GmbH](https://cvrt.dev)*
+*[CAVORT Konzepte GmbH](https://cavort.de)*
