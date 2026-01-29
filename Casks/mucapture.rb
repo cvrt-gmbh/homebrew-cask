@@ -1,6 +1,6 @@
 cask "mucapture" do
   version "1.0.3"
-  sha256 "9752dc15ad8d1e88fcee7358a2831ece4064b71c086e9a63c0184100e8060d1d"
+  sha256 "fadd3ff32054ea5e30bdee108fa0187892ca7af0232e2392f627ee94cd4b7edc"
 
   url "https://github.com/cvrt-gmbh/mu-capture/releases/download/v#{version}/muCapture-#{version}.zip"
   name "μCapture"
@@ -19,9 +19,5 @@ cask "mucapture" do
   caveats <<~EOS
     #{token} requires camera permissions to access capture devices.
     Grant permission when prompted on first launch.
-
-    If macOS blocks the app ("Apple could not verify..."), run:
-      sudo xattr -cr "/Applications/MuCapture.app"
-    Or: Right-click the app → Open → Click "Open" in the dialog.
   EOS
 end
