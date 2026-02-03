@@ -1,5 +1,9 @@
 # Homebrew Casks
 
+[![Homebrew](https://img.shields.io/badge/Homebrew-Tap-orange.svg)](https://brew.sh)
+[![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://apple.com/macos)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Homebrew Cask formulas for CAVORT macOS applications.
 
 ## Installation
